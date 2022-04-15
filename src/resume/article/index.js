@@ -32,5 +32,24 @@ export default function Article() {
   );
 }
 
-const StyledArticle = styled.article``;
-// background: #20232a;
+const StyledArticle = styled.article`
+  p {
+    margin-top: 30px;
+  }
+  h1:nth-child(1),
+  h3,
+  h4,
+  h5 {
+    margin-top: 80px;
+  }
+  h2::before {
+    content: " ";
+    display: block;
+    border-bottom: 1px solid #ececec;
+    padding-top: 44px;
+    margin-bottom: 40px;
+  }
+  h6 {
+    margin-top: 50px;
+  }
+`;
