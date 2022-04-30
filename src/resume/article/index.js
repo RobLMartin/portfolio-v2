@@ -7,24 +7,33 @@ export default function Article() {
   return (
     <StyledArticle>
       <header>
-        <Typography variant="h1">How to Upgrade to React 18</Typography>
+        <Typography variant="h1">Rob Martin</Typography>
+        <Typography variant="subtitle1" color="textSecondary">
+          Asheville, NC / 904-614-3282 / rmartin3@alumni.unca.edu /
+          https://github.com/RobLMartin / https://codesandbox.io/u/RobLMartin
+        </Typography>
       </header>
-      <Typography variant="subtitle1" color="textSecondary">
-        As we shared in the release post, React 18 introduces features powered
-        by our new concurrent renderer, with a gradual adoption strategy for
-        existing applications. In this post, we will guide you through the steps
-        for upgrading to React 18.
-      </Typography>
       <Typography>
-        As we shared in the release post, React 18 introduces features powered
-        by our new concurrent renderer, with a gradual adoption strategy for
-        existing applications. In this post, we will guide you through the steps
-        for upgrading to React 18. Please report any issues you encounter
-        whilexxx upgrading to React 18. Note for React Native users: React 18
-        will ship in a future version of React Native. This is because React 18
-        relies on the New React Native Architecture to benefit from the new
-        capabilities presented in this blogpost. For more information, see the
-        React Conf keynote here.
+        Software Engineer - Meta Menlo Park/Remote, CA, 1/21 - current Designed,
+        built, & tested various Financial products using JavaScript (React),
+        GraphQL, and Hack. Lead Software Engineer - Premier Research Remote,
+        12/20 - 12/21 Designed, built, & tested a research product to capture
+        medical studies using JavaScript (React), Material-UI. Software Engineer
+        - Blue Cross Blue Shield Remote, 06/18 - 1/21 Developed various products
+        using: JavaScript (React), Redux, Material-UI, NodeJS, and others.
+        Achievement Highlights: ● Built our supply chain management system ●
+        Developed a Trello/Jira-like task management system ● Developed
+        prototypes to minimize risks across projects ● Developed and followed
+        best practices domain wide Software Engineer - SAW Software Mill
+        Asheville, NC, 06/16 - 11/17 Built products for the construction
+        industry using Javascript. SKILLS Experience in Product Management and
+        Software Engineering. Programming Technologies JavaScript, React, Redux,
+        REST, Firebase, NodeJS, Express, Hack, HTML, CSS, Webpack, Git, GitHub,
+        GitLab, Bitbucket, Jira. Other Skills Algorithms, Data Structures,
+        System Design / Product Design, Creative, Reliable & Professional,
+        Organized, Time Management, Team Player, Fast Learner, Self-Motivated,
+        Driven EDUCATION University of North Carolina of Asheville, 2016.
+        Emphasis in Information Systems B.S. in Computer Science
       </Typography>
       <Typography variant="h2">Installing</Typography>
       <Typography>To install the latest version of React:</Typography>
