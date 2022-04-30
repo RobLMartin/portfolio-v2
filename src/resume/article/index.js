@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import "./styles.css";
-import { Typography } from "../../app/components";
+import { Typography, Link } from "../../app/components";
 
 export default function Article() {
   return (
@@ -10,7 +10,8 @@ export default function Article() {
         <Typography variant="h1">Rob Martin</Typography>
         <Typography variant="subtitle1" color="textSecondary">
           Asheville, NC / 904-614-3282 / rmartin3@alumni.unca.edu /
-          https://github.com/RobLMartin / https://codesandbox.io/u/RobLMartin
+          <Link href="https://github.com/RobLMartin">Github</Link> /
+          <Link href="https://codesandbox.io/u/RobLMartin">Code Sandbox</Link>
         </Typography>
       </header>
       <Typography>
