@@ -25,8 +25,10 @@ const themeOptions = {
       fontWeight: 600,
     },
     h3: {
-      fontSize: 35,
-      fontWeight: 300,
+      // fontWeight: 600,
+      fontSize: "1.5rem",
+      lineHeight: "1.334",
+      letterSpacing: "0em",
     },
     h4: {
       fontSize: 30,
